@@ -7,19 +7,19 @@ const Side = () => {
       <menu className={styles.side}>        
         <li>
           <NavLink to="/">
-            <img src="./img/home.svg" alt="" />
+            <img src="img/home.svg" alt="" />
           </NavLink>
         </li>
         <li>
           <NavLink to="/favorites">
-            <img src="./img/playlist.svg" alt="" />
+            <img src="img/playlist.svg" alt="" />
           </NavLink>
         </li>       
         <li>
-          <img src="/img/profile.svg" alt="" />
+          <img src="img/profile.svg" alt="" />
         </li>
         <li>
-          <img src="./img/logout.svg" alt="" />
+          <img src="img/logout.svg" alt="" />
         </li>
       </menu>
     </>

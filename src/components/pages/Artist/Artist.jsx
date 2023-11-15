@@ -87,7 +87,7 @@ const Artist = () => {
                                     <p>{item.title}</p>
                                     {/* Display play button or equalizer gif based on the playing state */}
                                     <img
-                                        src={isPlaying && idMusic === item.id ? "./img/equalizador.gif" : "./img/play.png"}
+                                        src={isPlaying && idMusic === item.id ? "img/equalizador.gif" : "img/play.png"}
                                         alt="player"
                                         onClick={() => handleMusic(item.id)}
                                         className={style.artist__play}

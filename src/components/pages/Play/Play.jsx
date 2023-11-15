@@ -92,7 +92,7 @@ const Play = () => {
               <div className={style.controls__button}>
                 {/* Play/Pause button */}
                 <button onClick={togglePlayPause}>
-                  {isPlaying ? <img src="./img/pause.png" alt="Pause" /> : <img src="./img/play.png" alt="Play" />}
+                  {isPlaying ? <img src="img/pause.png" alt="Pause" /> : <img src="img/play.png" alt="Play" />}
                 </button>
                 {/* Volume control */}
                 <input className={style.controls__input}
@@ -107,9 +107,9 @@ const Play = () => {
               <div className={style.controls__favorite}>
                 {/* Display favorite icon based on whether the track is in favorites or not */}
                 {favorite.includes(track.id) ? (
-                  <img src="./img/yesfavorite.svg" alt="Remove from favorites" onClick={handleFavorite} />
+                  <img src="img/yesfavorite.svg" alt="Remove from favorites" onClick={handleFavorite} />
                 ) : (
-                  <img src="./img/nofavorite.svg" alt="Add to favorites" onClick={handleFavorite} />
+                  <img src="img/nofavorite.svg" alt="Add to favorites" onClick={handleFavorite} />
                 )}
               </div>
             </div>

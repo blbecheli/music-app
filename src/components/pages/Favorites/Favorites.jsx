@@ -61,7 +61,7 @@ const Favorites = () => {
                     <>
                         {/* Display a header for the favorites section */}
                         <div className={styles.capa}>
-                            <img src="./img/favoritecapa.png" alt="Favorite cover" />
+                            <img src="img/favoritecapa.png" alt="Favorite cover" />
                             <h3> Here is where you find the tunes you love the most.</h3>
                         </div>
                         {/* Map through the track data and display each track in the favorites list */}
@@ -74,7 +74,7 @@ const Favorites = () => {
                                     <p>{item.artist.name}</p>
                                     {/* Display play button or equalizer gif based on the playing state */}
                                     <img
-                                        src={isPlaying && idMusic === item.id ? "./img/equalizador.gif" : "./img/play.png"}
+                                        src={isPlaying && idMusic === item.id ? "img/equalizador.gif" : "img/play.png"}
                                         alt="player"
                                     />
                                 </div>
