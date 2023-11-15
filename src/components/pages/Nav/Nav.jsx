@@ -12,7 +12,7 @@ const Search = () => {
     <div className={styles.nav}>
       {/* Link to the home page */}
       <Link to="/">
-        <img src="./img/logo.svg" alt="logo" />
+        <img src="img/logo.svg" alt="logo" />
       </Link>
       <div className={styles.search}>
         {/* Link to the search page */}
@@ -24,7 +24,7 @@ const Search = () => {
       {/* Link to the favorites page */}
       <Link to="/favorites">
         {/* Favorites icon */}
-        <img src="./img/yesfavorite.svg" alt="logo favorites" />        
+        <img src="img/yesfavorite.svg" alt="logo favorites" />        
       </Link>
     </div>
   )
