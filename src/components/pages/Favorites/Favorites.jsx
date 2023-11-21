@@ -20,7 +20,7 @@ const Favorites = () => {
             // Loop through each ID in the favorite array
             for (const id of favorite) {
                 // Fetch data from the Deezer API using CORS-anywhere proxy for each ID
-                const response = await fetch(`https://api.deezer.com/track/${id}`);
+                const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`);
                 // Parse the response to JSON
                 const data = await response.json();
                 // Push the track data to the array

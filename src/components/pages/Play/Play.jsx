@@ -34,7 +34,7 @@ const Play = () => {
   useEffect(() => {
     const fetchMusic = async () => {
       // Fetch data from the Deezer API using CORS-anywhere proxy
-      const response = await fetch(`https://api.deezer.com/track/${idMusic}`);
+      const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${idMusic}`);
       // Parse the response to JSON
       const data = await response.json();
       // Set the track data in the state

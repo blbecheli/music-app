@@ -15,7 +15,7 @@ const Search = () => {
     useEffect(() => {
         const fetchMusic = async () => {
             // Fetch data from the Deezer API using CORS-anywhere proxy
-            const response = await fetch(`https://api.deezer.com/search?q=${search}`);
+            const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${search}`);
             // Parse the response to JSON
             const data = await response.json();
             // Set the search results in the state

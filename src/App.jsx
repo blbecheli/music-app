@@ -11,6 +11,7 @@ import Favorites from './components/pages/Favorites/Favorites'
 
 
 
+
 function App() {
   return (
     <UserContextProvider>

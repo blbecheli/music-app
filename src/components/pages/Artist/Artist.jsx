@@ -16,7 +16,7 @@ const Artist = () => {
     useEffect(() => {
         const fetchMusic = async () => {
             // Fetch data from the Deezer API using CORS-anywhere proxy
-            const response = await fetch(`https://api.deezer.com/artist/${idArtist}`);
+            const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${idArtist}`);
             // Parse the response to JSON
             const data = await response.json();
             // Set the artist data in the state

@@ -17,7 +17,7 @@ const Top = () => {
   useEffect(() => {
     const fetchMusic = async () => {
       // Fetch data from the Deezer API using CORS-anywhere proxy
-      const response = await fetch('https://api.deezer.com/chart/0');
+      const response = await fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0');
       // Parse the response to JSON
       const data = await response.json();
       // Set the chart data in the state
